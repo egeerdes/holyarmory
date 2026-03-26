@@ -4,5 +4,5 @@ import { cloudflare } from "@cloudflare/vite-plugin";
 import mdPlugin from 'vite-plugin-markdown'
 
 export default defineConfig({
-	plugins: [react(), cloudflare(),mdPlugin({mode:['html','toc']})]
+	plugins: [react(), cloudflare()]
 });
